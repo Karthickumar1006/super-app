@@ -1,7 +1,10 @@
 package com.superapp;
 
-import com.facebook.react.ReactActivity;
 import android.os.Bundle;
+
+import com.swmansion.gesturehandler.react.RNGestureHandlerEnabledRootView;
+import com.facebook.react.ReactActivity;
+import com.facebook.react.ReactRootView;
 
 public class MainActivity extends ReactActivity {
 
@@ -14,4 +17,7 @@ public class MainActivity extends ReactActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(null);
     }
+
+
+
 }
